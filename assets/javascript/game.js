@@ -11,7 +11,7 @@ $(document).ready(function() {
      var losses = 0;
 
 
-
+  
      function randomize() {
              randmNum = Math.floor(Math.random() * 20 + 121);
              score = Math.floor(Math.random() * 20 + 2);
