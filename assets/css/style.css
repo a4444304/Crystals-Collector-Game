@@ -1,0 +1,33 @@
+
+head {
+    font-size: large;
+}
+body {
+    background-color: gray;
+}
+.navbar {
+    background-color: lightgray;
+    font-size: 80px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.jumbotron  {
+    background-color: lightskyblue;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+}
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Crystal Collector Game</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Crystal Collector Game</span>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">How to Play:</h1>
+          <p class="lead">Pick a crystal and collect your points.</p>
+        </div>
+    </div>
+
+    <div class="container">
+            <div class="body div">
+            <div class="row row1">
+                <div class="col-md">
+                    <div class="card-body" id="score">
+                        <h5 class="card-title">Random Number</h5>
+                        <p class="card-text" id="wnngVal">#</p>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card-body" id="winLoss">
+                    <h5 class="card-title">Wins & Losses</h5>
+                    <p class="card-text" id="winLossText">Wins: Losses:</p>
+            </div>
+            </div>
+            <div class="col-md">
+                    <div class="card-body" id="score">
+                        <h5 class="card-title">Current Score</h5>
+                        <p class="card-text" id="scoreText">Current Score: 0</p>
+                    </div>
+            </div>
+            <br/>
+            <br/>
+            <div class="row row2">
+                <div class="col-sm">
+                    <div class="card" style="width: 10rem;">
+                        <img src="assets/images/multi-crystals/pycrystal.png" class="card-img-top" id="pcrystal" alt="crystal1">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 10rem;">
+                        <img src="assets/images/multi-crystals/wcrystal.png" class="card-img-top" id="wcrystal" alt="crystal2">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 10rem;">
+                        <img src="assets/images/multi-crystals/gcrystal.png" class="card-img-top" id="gcrystal" alt="crystal3">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 10rem;">
+                        <img src="assets/images/multi-crystals/rcrystal.png" class="card-img-top" id="rcrystal" alt="crystal4">
+                    </div>
+                </div>
+            </div>
+           
+    </div><!--closed div class "container"-->
+
+ 
+
+</body>
+</html>
